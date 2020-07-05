@@ -1,5 +1,5 @@
 # Practice
-practice some stuff, not going to make much sense
+practicing some stuff
 
 # how to git in vs code
 
