@@ -1,0 +1,40 @@
+ALG1(A,n,i){
+    ...
+}
+ALG2(A,n,i){
+    ...
+}
+ALG3(A,n,i){
+    ...
+}
+
+main{
+    #generate numbers for array A[1...m, 1...n]
+    m=5
+    for j=1 to m
+        for k=1 to n 
+            A[j,k] = rand()
+
+    #measurements for ALG 1
+    for(N=10000, n<=20000, n=n+10000)
+        i=floor(2n/3)
+        for(j=1, j<=m, j=j+1)
+            B[1...n] = A[j, 1...n] 
+            t1 = time() 
+            ALG1(B,n,i)
+            t2 = time()
+            tALG1[j,n] = t2 - t1
+    #compute average
+    tAvgALG1[n] = ((tALG1[1,n] + tALG1[2,n] + ... + tALG1[m,n]) / (m))  
+
+    #repeat for ALG2
+    #repeat for ALG3
+    
+        
+
+
+
+
+
+
+}
