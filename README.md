@@ -5,7 +5,7 @@ practicing some stuff
 
 1. Ctrl +shift+p or clone get repository 
 2. command pallet 
-3. type in ‘get clone’ paste in get hub link
+3. type in ‘git clone’ paste in git hub link
 4. where on computer to store application set it to sync to folder on computer 
 5. Make a new file, just a ‘read me’ for know, supports markdown
 6. click on the git icon, make a commit, type the not into the comment box, click the check box, the check box will comment it locally on our computer 
