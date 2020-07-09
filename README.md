@@ -12,6 +12,7 @@ practicing some stuff
 7. click ‘publish changes’ on bottom left 
 8. github will render ‘read me’ file on the page online
 9. ‘Merge complex’ can be an issue, will define later 
+10. branches will explain later
 
 
 # first time git setup
