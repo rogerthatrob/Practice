@@ -12,7 +12,7 @@ def ALG2(A,n,i):
 def ALG3(A,n,i):
     x = def RANDOMIZED_SELECT(A,1,n,i):
     print(x)    
-
+    
 
 def main():
     print ("in main")
