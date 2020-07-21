@@ -34,3 +34,4 @@ while currentSavings < portionDownPayment: #want to run loop during a condition
     months += 1
 
 print("number of months to save: ", months)
+=[]
