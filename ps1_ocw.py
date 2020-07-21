@@ -11,26 +11,28 @@
 # c) 
 
 
-annualSalary = float(input("enter salary: "))
-portionSaved = float(input("enter percent of salary to save, as a decimal: "))
-totalCost = float(input("enter the cost of your dream house: "))
-semiAnnualRaise = float(input("enter the semi-annual raise, as a decimal: "))
-
-
+annualSalary = 120000 #float(input("enter salary: "))
+portionSaved = .05 #float(input("enter percent of salary to save, as a decimal: "))
+totalCost = 500000 #float(input("enter the cost of your dream house: "))
+semiAnnualRaise = .03 #float(input("enter the semi-annual raise, as a decimal: "))
 portionDownPayment = totalCost * 0.25
 currentSavings = 0
 r = 0.04
 months = 0
 
 while currentSavings < portionDownPayment: #want to run loop during a condition 
-    currentSavings += annualSalary/12 #divide salary up by month
-    currentSavings += currentSavings*portionSaved #
-    #r = r/12 #r keeps changing values
-    currentSavings += currentSavings*(r/12) 
+    # currentSavings += annualSalary/12 #divide salary up by month
+    # currentSavings += currentSavings*portionSaved #
+    # #r = r/12 #r keeps changing values
+    # currentSavings += currentSavings*(r/12) 
+    currentSavings += (annualSalary/12)*portionSaved + currentSavings*(r/12)
     months += 1 #months is a counter
     # can be done in one line ⬇⬇⬇
     # currentSavings += (annualSalary/12)*portionSaved + currentSavings*(r/12)
-    
-    months += 1
 
+    if months % 6 == 0:
+        annualSalary = annualSalary + (annualSalary * semiAnnualRaise) 
+        #multiply salary at current amount, then add that amount to the salary aready made from the year,
+        #   set that amount to annualSalary 
 print("number of months to save: ", months)
+
