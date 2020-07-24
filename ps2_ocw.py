@@ -64,7 +64,7 @@ def is_word_guessed(secret_word, letters_guessed):
     #https://docs.python.org/3/reference/expressions.html#membership-test-operations
     
 
-    #pass
+    # pass
 
 
 
