@@ -5,18 +5,17 @@
 
 big = 0
 i = 0
-
+odd = 0
 while i < 10:
     i += 1
+    print("guess number:", i, "out of ten")
     a_list = int(input("input an integer: "))
 
-    if a_list > big:# & a_list % 2 == 0:
-        print("a_list is bigger than big")
+    if a_list > big and a_list % 2 != 0:
         big = a_list
-        
-        if big % 2 != 0:
-            print("num is odd", big)
-
-        print("biggest num is: ", big, "\n")
-    else:
-        print("num ins't the biggest \n")
+        odd = 1
+        print("biggest odd num is: ", big)
+    elif odd ==0:
+        print("will need to test if odd, enter an odd number")
+    else:    
+        print("not the biggest number ")
