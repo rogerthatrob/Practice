@@ -1,3 +1,4 @@
+
 magicNumber = 26
 
 for n in range(101):
