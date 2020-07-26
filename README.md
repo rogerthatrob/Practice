@@ -1,6 +1,7 @@
 # Practice
 practicing some stuff
 
+
 # how to git in vs code
 
 1. Ctrl +shift+p or clone get repository 
@@ -25,3 +26,16 @@ practicing some stuff
             3. type 'git config --global user.email "johndoe@example"'
             4. verify by typing 'git config --list' will show a some info with user.name and user.email in there. 
 
+
+# setting up Jupyter Notebooks
+
+1. tutorial from microsft: https://code.visualstudio.com/docs/python/jupyter-support
+2. read through jupyter notebook website: https://jupyter-notebook.readthedocs.io/en/latest/#
+3. markdown: https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-basics
+4. can know run several small programs at once, but the vaiables are universal so be careful with that. 
+
+
+# data science tutorial from microsoft:
+
+1. data science is next, would like to set up some plots :)
+    - https://code.visualstudio.com/docs/python/data-science-tutorial
