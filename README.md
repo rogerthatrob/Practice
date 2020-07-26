@@ -1,5 +1,5 @@
 # Practice
-practicing some stuff
+practicing some stuff, each file should be viewed as separate projects
 
 
 # how to git in vs code
