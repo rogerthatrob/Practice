@@ -121,11 +121,10 @@ def main():
     # The syntax would look something like:
     for index in range(0,5):
         for j in range(0,20):
-            someRandomValue = random.randint(0, 100) # 1 ## needs to be 32767
+            someRandomValue = random.randint(0, 20000, 1000) # 1 ## needs to be 32767
             A[index].append(someRandomValue) # 2 
 
     #measurements for alg1
-    #n = 10
     for n in range(10, n<=20, n+100):
         floor = 2*n / 3
         i = floor
