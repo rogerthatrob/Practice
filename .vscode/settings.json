@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\rober\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "python.pythonPath": "/opt/anaconda3/bin/python",
     "python.dataScience.jupyterServerURI": "local"
 }
