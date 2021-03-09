@@ -36,6 +36,6 @@ practicing some stuff, each file should be viewed as separate projects
 
 
 # data science tutorial from microsoft:
-
+#### need to update this section
 1. data science is next, would like to set up some plots :)
     - https://code.visualstudio.com/docs/python/data-science-tutorial
