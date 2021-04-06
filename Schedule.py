@@ -2,14 +2,9 @@
 
 import csv
 import sys
+import numpy as np
+import pandas as pd
 
-
-print("test", sys.version)
-try:
-    import numpy as np
-    print('numpy imported\n')
-except ImportError:
-    print("numpy is not installed")
 
 with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
     schedule = csv.reader(csvfile, delimiter=' ', quotechar='|')
@@ -18,4 +13,10 @@ with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
 
 
 
-df = pd.DataFram(columns = ["Name", "Monday", "Tuesday"]
+# df = pd.DataFram(columns = ["Name", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+
+df = pd.DataFrame(
+    {
+        "Name":["Rob", "Shelly"]
+    }
+)
