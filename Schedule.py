@@ -1,29 +1,37 @@
 
 
-import csv
-import sys
+# import csv
+# import sys
 # import numpy as np
-import pandas as pd
+#import pandas as pd
 
-
+print("hi")
 # with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
 #    schedule = csv.reader(csvfile, delimiter=' ', quotechar='|')
 #    for row in schedule:
 #       print(', '.join(row))
 
-
-
-# df = pd.DataFram(columns = ["Name", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+import pandas as pd
 
 df = pd.DataFrame(
     {
-        "Name":["Rob", "Shelly"],
-        "Monday": [],
-        "Tuesday": [],
-        "Wednesday": ["S1\n8pm"],
-        "Thursday": [],
-        "Friday": [],
-        "Saturday": [],
-        "Sunday": []
+        "name": ["Name", "Monday", "Tuesday"],
+        "date": ["date", "date", "date"]
     }
 )
+print(df)
+
+# df = pd.DataFram(columns = ["Name", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+
+# df = pd.DataFrame(
+#     {
+#         "Name":["Rob", "Shelly"],
+#         "Monday": [],
+#         "Tuesday": [],
+#         "Wednesday": ["S1\n8pm"],
+#         "Thursday": [],
+#         "Friday": [],
+#         "Saturday": [],
+#         "Sunday": []
+#     }
+# )
