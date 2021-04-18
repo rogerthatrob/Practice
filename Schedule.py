@@ -2,14 +2,14 @@
 
 import csv
 import sys
-import numpy as np
+# import numpy as np
 import pandas as pd
 
 
-with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
-    schedule = csv.reader(csvfile, delimiter=' ', quotechar='|')
-    for row in schedule:
-        print(', '.join(row))
+# with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
+#    schedule = csv.reader(csvfile, delimiter=' ', quotechar='|')
+#    for row in schedule:
+#       print(', '.join(row))
 
 
 
@@ -17,6 +17,13 @@ with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
 
 df = pd.DataFrame(
     {
-        "Name":["Rob", "Shelly"]
+        "Name":["Rob", "Shelly"],
+        "Monday": [],
+        "Tuesday": [],
+        "Wednesday": ["S1\n8pm"],
+        "Thursday": [],
+        "Friday": [],
+        "Saturday": [],
+        "Sunday": []
     }
 )
