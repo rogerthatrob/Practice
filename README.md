@@ -35,7 +35,3 @@ practicing some stuff, each file should be viewed as separate projects
 4. can know run several small programs at once, but the vaiables are universal so be careful with that. 
 
 
-# data science tutorial from microsoft:
-#### need to update this section
-1. data science is next, would like to set up some plots :)
-    - https://code.visualstudio.com/docs/python/data-science-tutorial
