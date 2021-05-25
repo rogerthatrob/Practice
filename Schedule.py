@@ -1,9 +1,9 @@
 
 
-# import csv
-# import sys
-# import numpy as np
-#import pandas as pd
+import csv
+import sys
+import numpy as np
+import pandas as pd
 
 print("hi")
 # with open('/Users/roberthaire/Documents/Test-bar.csv', newline='') as csvfile:
