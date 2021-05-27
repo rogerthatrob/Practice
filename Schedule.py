@@ -11,7 +11,7 @@ print("hi")
 #    for row in schedule:
 #       print(', '.join(row))
 
-import pandas as pd
+dates = pd.date_range("20130101", periods=6)
 
 df = pd.DataFrame(
     {
